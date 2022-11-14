@@ -1,0 +1,78 @@
+html
+{
+    font-family: 'Bilbo', cursive;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    min-width: 500px;
+    background-color: lightgray;
+}
+.bouton a:hover
+{
+    background-color: darkgray;
+    color: solid black;
+    border-radius: 20%;
+}
+.bouton a:active
+{
+    background-color: black;
+}
+.boutonouvert
+{
+    background-color: darkgray;
+    border-radius: 20%;
+}
+.menu
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    font-size: 60px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    padding-bottom: 25px;
+    border-bottom: solid darkgrey 5px;
+}
+a
+{
+    padding: 15px;
+}
+.profile
+{
+    width: 200px;
+    border-radius: 100%;
+    border: solid black 5px;
+}
+.avatar
+{
+    padding-top: 50px;
+}
+.titre
+{
+    font-size: 100px;
+    border-bottom: solid darkgray 5px;
+}
+.texte
+{
+    padding-top: 15px;
+    font-size: 50px;
+    text-align: center;
+}
+.lenny
+{
+    font-size: 200px;
+    text-align: center;
+}
+.video
+{
+    border-radius: 10%;
+}
+.belleimage
+{
+    width: 100%;
+    border-radius: 25%;
+}
